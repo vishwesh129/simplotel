@@ -2,16 +2,18 @@
     margin: 0;
     padding: 0;
 }
-body{
-    background-color: red; /* For browsers that do not support gradients */
-    background-image: linear-gradient(to right, #ff4dff , #ffff4d);
+
+body {
+    background-color: red;
+    /* For browsers that do not support gradients */
+    background-image: linear-gradient(to right, #ff4dff, #ffff4d);
 }
 
-.navbar{
+.navbar {
     background-color: white;
 }
 
-nav ul{
+nav ul {
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -25,7 +27,26 @@ nav ul{
     display: flex;
 }
 
-.navbar_right{
+.navbar_right {
     display: flex;
-    
+
+}
+
+.main {
+    width: 100%;
+    background-image: url(images/img1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    position: relative; 
+}
+
+.box {
+    width: 30%;
+    background-color: rgba(255, 0, 0, 0.33);
+    margin-left: 100px;
+    padding: 50px;
+    color: white;
+    position: absolute;
+    top: 100px; 
 }
